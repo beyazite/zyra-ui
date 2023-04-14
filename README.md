@@ -1,8 +1,12 @@
 # zyra-ui
 
-> Zyra UI provides buttons for your projects.  
+> Simple button designs for your projects. Selectable types: primary, default, dashed, text and link.
+
+![Preview](./src/zyra-ui.png)
 
 [![NPM](https://img.shields.io/npm/v/zyra-ui.svg)](https://www.npmjs.com/package/zyra-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+> You can check the project on [GitHub](https://github.com/beyazite/zyra-ui)
 
 ## Install
 
@@ -15,12 +19,12 @@ npm install --save zyra-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'zyra-ui'
+import {ZyraButton} from 'zyra-ui'
 import 'zyra-ui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ZyraButton type="selected-type-comes-here" text="your-button-text-comes-here" />
   }
 }
 ```
@@ -28,3 +32,4 @@ class Example extends Component {
 ## License
 
 MIT © [beyazite](https://github.com/beyazite)
+
