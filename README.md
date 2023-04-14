@@ -6,7 +6,8 @@
 
 [![NPM](https://img.shields.io/npm/v/zyra-ui.svg)](https://www.npmjs.com/package/zyra-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> You can check the project on [GitHub](https://github.com/beyazite/zyra-ui)
+> You can check the project on [GitHub](https://github.com/beyazite/zyra-ui).
+
 
 ## Install
 
